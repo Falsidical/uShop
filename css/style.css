@@ -1,0 +1,92 @@
+:root {
+  font-size: 16px;
+  font-family: sans-serif;
+  --color-primary: orange;
+  --text-light: white;
+  --text-dark: black;
+  --bg-light: #white;
+  --bg-dark: #1e1e1e;
+
+  /*
+  --bg-light: #23232e;
+  --bg-dark: #141418;
+  */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-light);
+}
+
+/* NAVBAR */
+
+nav ul {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+
+nav ul li {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  height: 2rem;
+}
+
+nav ul li:last-child {
+margin-left: auto;
+}
+
+
+/* Colors */
+
+footer {
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+}
+
+.container:nth-child(even){
+  background-color: var(--color-primary);
+  color: var(--text-light);
+  text-align: right;
+}
+
+/* JUMBO */
+
+.hero {
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.buttons {
+    text-align: center;
+    padding: 2rem;
+    padding-top: 0;
+}
+
+/* CONTAINERS */
+
+.container {
+  padding: 5rem 2rem;
+}
+
+#descargar{
+  margin: 4rem auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 200px;
+  padding: 2rem;
+}
